@@ -1,0 +1,9 @@
+{
+	"name": "adf-dev-2021",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "47b86f66-0c60-4c83-b47a-e56e71e91a4a",
+		"tenantId": "acc7d630-bdb9-43f0-881a-f42efa656d34"
+	}
+}

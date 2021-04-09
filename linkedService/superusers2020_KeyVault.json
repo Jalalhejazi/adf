@@ -1,0 +1,12 @@
+{
+	"name": "superusers2020_KeyVault",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "secret store",
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://superusers2020.vault.azure.net/"
+		}
+	}
+}

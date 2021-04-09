@@ -1,0 +1,19 @@
+{
+	"name": "datasource2021",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Storage Account using KeyVault",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "superusers2020_KeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "datasource2021"
+			}
+		}
+	}
+}
