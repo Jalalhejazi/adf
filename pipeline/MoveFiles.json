@@ -75,7 +75,16 @@
 								"secureOutput": false,
 								"secureInput": false
 							},
-							"userProperties": [],
+							"userProperties": [
+								{
+									"name": "Source",
+									"value": "@{pipeline().parameters.SourceStore_Location}/@{pipeline().parameters.SourceStore_Directory}/@{item().name}"
+								},
+								{
+									"name": "Destination",
+									"value": "@{pipeline().parameters.DestinationStore_Location}/@{pipeline().parameters.DestinationStore_Directory}/"
+								}
+							],
 							"typeProperties": {
 								"source": {
 									"type": "BinarySource",
