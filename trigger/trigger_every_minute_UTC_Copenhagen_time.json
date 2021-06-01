@@ -10,7 +10,9 @@
 					"type": "PipelineReference"
 				},
 				"parameters": {
+					"SourceStore_Location": " ",
 					"SourceStore_Directory": "staging",
+					"DestinationStore_Location": " ",
 					"DestinationStore_Directory": "sink"
 				}
 			}
