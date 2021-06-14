@@ -1,0 +1,9 @@
+{
+	"name": "ELT-PROCESS",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2ab4efba-ef8d-40f8-b0ec-a0863d2a902a",
+		"tenantId": "acc7d630-bdb9-43f0-881a-f42efa656d34"
+	}
+}
